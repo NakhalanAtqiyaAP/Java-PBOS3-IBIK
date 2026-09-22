@@ -7,3 +7,6 @@ public class Introduce {
 
     }
 }
+
+
+// nama variable tidak boleh memakai angka di depan, ada striptnya, dan terpisah 
