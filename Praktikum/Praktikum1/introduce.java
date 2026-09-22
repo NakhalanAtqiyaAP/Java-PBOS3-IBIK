@@ -1,7 +1,9 @@
 import java.util.Scanner;
 public class introduce {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        
+        int umur = 10;
+
+        System.out.println("Contoh Penggunaan variable" + umur);
+
     }
 }
