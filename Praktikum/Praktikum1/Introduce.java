@@ -5,6 +5,15 @@ public class Introduce {
 
         System.out.println("Contoh Penggunaan variable: " + umur);
 
+    //Operator Pembanding
+    boolean cekCukupUmur = umur > 10;
+
+    if (cekCukupUmur) {
+        System.out.println("Kamu boleh masuk");
+    } else {
+        System.out.println("Kamu tidak boleh masuk");
+    }
+
     }
 }
 
