@@ -17,7 +17,9 @@ public class Introduce {
         System.out.println("Kamu tidak boleh masuk");
     }
 
-
+    //contoh membuat sebuah objek
+    Dog dog1 = new Dog();
+    dog1.barking();
 
     }
 }
