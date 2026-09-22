@@ -2,12 +2,13 @@ import java.util.Scanner;
 public class Introduce {
     public static void main(String[] args) {
         int umur = 10;
+        int umurMasaDepan = umur + 12;
         String nama = "Nakhalan";
 
         System.out.println("Contoh Penggunaan variable: " + umur);
 
     //Operator Pembanding
-    boolean cekCukupUmur = umur > 10;
+    boolean cekCukupUmur = umurMasaDepan > 10;
     boolean cekNama = nama == "Nakhalan";
 
     if (cekCukupUmur && cekNama ) {
