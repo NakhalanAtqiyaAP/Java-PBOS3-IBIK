@@ -28,7 +28,7 @@ public class Latihan1 {
             }
         }
 
-        if(uang <= harga){
+        if(uang < harga){
            System.out.println("Uang kamu kurang");
         }else{
             int totalKembalian = uang - harga;
