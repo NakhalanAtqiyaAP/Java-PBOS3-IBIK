@@ -40,9 +40,9 @@ public class Latihan2 {
     switch(menu){
         case 1 ->{
             System.out.print("Masukan sebuah angka : ");
-            int ganjil = scanner.nextInt();
+            int batas = scanner.nextInt();
 
-            for(int i = 1; i <= ganjil; i++){
+            for(int i = 1; i <= batas; i++){
                 if (i % 2 != 0) {
                     System.out.println(i + " ");
                 }
@@ -59,6 +59,8 @@ public class Latihan2 {
                 System.out.println("Grade : B");
             }
         }
+            default -> System.out.println("Menu tidak valid");
     }
+    scanner.close();
     }
 }
