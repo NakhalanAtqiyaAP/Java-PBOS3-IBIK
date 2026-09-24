@@ -8,6 +8,8 @@ public class Belajar2 {
     daftarMakanan[0] = "Sate";
     daftarMakanan[1] = "Soto";
     daftarMakanan[2] = "Nasi padang";
+
+    String[] daftarBuku = {"Islam ala Prabowo", "Berani Tidak Disukai"};
         
     }
 }
