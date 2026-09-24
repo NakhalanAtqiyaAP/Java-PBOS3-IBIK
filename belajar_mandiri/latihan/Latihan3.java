@@ -34,7 +34,7 @@ public class Latihan3 {
                 System.out.println("Mau setor tunai berapa?");
                 int setorTunai = scanner.nextInt();
 
-                saldo += setorTunai + saldo;
+                saldo += setorTunai;
 
                 System.out.println("Setor tunai berhasil!");
                 System.out.println("Saldo Anda Rp. "+ saldo);
